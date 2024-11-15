@@ -22,6 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+
+    namespace = "com.weilu.flutter.flutter_2d_amap"
+
     compileSdkVersion 33
 
     defaultConfig {
